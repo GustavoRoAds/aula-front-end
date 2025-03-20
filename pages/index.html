@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html> 
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Projeto</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Bem vindo</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
 
-    <div id="conteudo">
-        <input type="email" class="input"> 
-        <input type="password" class="input">
-        <button id="botao-entrar "> Entrar</button>
-        
-        
-     </div>
+<body>
     
+
+    <div id="conteudo"> 
+        <form method="post"> 
+            <input name="email" type="email" class="input" placeholder="Informe seu e-mail!" required> 
+            <input name="senha" type="password" class="input" placeholder="Informe sua senha!" required> 
+            <button type="submit" id="botao-entrar">Entrar</button> 
+        </form>
+    </div>
+
 </body>
+
 </html>
